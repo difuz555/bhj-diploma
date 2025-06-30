@@ -1,0 +1,286 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "ssfff",
+      "email": "lol@mail.bum",
+      "password": "123",
+      "id": "22it29rgmciu717e"
+    },
+    {
+      "name": "1",
+      "email": "2@3",
+      "password": "123",
+      "id": "22it2do4mciucd8w"
+    },
+    {
+      "name": "1",
+      "email": "2@3.ru",
+      "password": "4",
+      "id": "22it2c10mciulwn5"
+    },
+    {
+      "name": "1",
+      "email": "3@4.ru",
+      "password": "555",
+      "id": "22it2jwmciuten8"
+    },
+    {
+      "name": "ddd",
+      "email": "zdxwx@m.ru",
+      "password": "344343433434",
+      "id": "22it2dkomcivdpt4"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "232323",
+      "user_id": "22it2do4mciucd8w",
+      "id": "22it2e7gmciucnl2"
+    },
+    {
+      "name": "1",
+      "user_id": "22it2c10mciulwn5",
+      "id": "22it28usmciumadl"
+    },
+    {
+      "name": "2",
+      "user_id": "22it2c10mciulwn5",
+      "id": "22it2dy4mciumjzx"
+    },
+    {
+      "name": "3",
+      "user_id": "22it2c10mciulwn5",
+      "id": "22it2cs4mciumndv"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "22it2bw4mciucqmh",
+      "type": "income",
+      "name": "12121",
+      "sum": 13323,
+      "account_id": "22it2e7gmciucnl2",
+      "user_id": "22it2do4mciucd8w",
+      "created_at": "2025-06-30T08:32:52.168Z"
+    },
+    {
+      "id": "22it22ykmciud4q7",
+      "type": "income",
+      "name": "1",
+      "sum": 12,
+      "account_id": "22it2e7gmciucnl2",
+      "user_id": "22it2do4mciucd8w",
+      "created_at": "2025-06-30T08:33:10.446Z"
+    },
+    {
+      "id": "22it22msmciueifb",
+      "type": "expense",
+      "name": "r",
+      "sum": 123,
+      "account_id": "22it2e7gmciucnl2",
+      "user_id": "22it2do4mciucd8w",
+      "created_at": "2025-06-30T08:34:14.854Z"
+    },
+    {
+      "id": "22it2e30mciueqie",
+      "type": "expense",
+      "name": "ff",
+      "sum": 6464,
+      "account_id": "22it2e7gmciucnl2",
+      "user_id": "22it2do4mciucd8w",
+      "created_at": "2025-06-30T08:34:25.333Z"
+    },
+    {
+      "id": "22it2534mciun190",
+      "type": "income",
+      "name": "qw",
+      "sum": 34,
+      "account_id": "22it28usmciumadl",
+      "user_id": "22it2c10mciulwn5",
+      "created_at": "2025-06-30T08:40:52.499Z"
+    },
+    {
+      "id": "22it28gsmciupuqg",
+      "type": "income",
+      "name": "7788",
+      "sum": 24,
+      "account_id": "22it2cs4mciumndv",
+      "user_id": "22it2c10mciulwn5",
+      "created_at": "2025-06-30T08:43:04.023Z"
+    },
+    {
+      "id": "22it2u4mciuq4aj",
+      "type": "expense",
+      "name": "787",
+      "sum": 7,
+      "account_id": "22it28usmciumadl",
+      "user_id": "22it2c10mciulwn5",
+      "created_at": "2025-06-30T08:43:16.410Z"
+    },
+    {
+      "id": "22it2u4mciuq4cn",
+      "type": "expense",
+      "name": "787",
+      "sum": 7,
+      "account_id": "22it28usmciumadl",
+      "user_id": "22it2c10mciulwn5",
+      "created_at": "2025-06-30T08:43:16.487Z"
+    }
+  ]
+}

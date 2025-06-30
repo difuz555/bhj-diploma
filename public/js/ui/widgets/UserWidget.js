@@ -12,6 +12,12 @@ class UserWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor(element){
+    if (element) {
+      this.element = element;
+    }
+    else {
+      throw new Error('Переданный элемент не существует');
+    }
 
   }
 
@@ -23,6 +29,8 @@ class UserWidget {
    * авторизованного пользователя
    * */
   update(){
-
+    const data = User.current();
+    const userName = document.querySelector('.user-name');
+    userName.textContent = data.name;
   }
 }
